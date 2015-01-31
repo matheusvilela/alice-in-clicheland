@@ -1,5 +1,5 @@
 compila: clean
-	g++ -O2 -m32 main.cpp `allegro-config --libs` -o AliceInClicheland
+	g++ -O2 main.cpp `allegro-config --libs` -o AliceInClicheland
 run: compila
 	./AliceInClicheland
 clean:

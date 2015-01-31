@@ -4,7 +4,7 @@
 
 Alice in Clicheland is a game developed for Digital Games Development course, taken during our Computer Science grad school at UFMG. It is an action RPG game, where the action takes place in real time. With its 2D graphics and aerial view, Alice in Clicheland recalls SNES RPG games, like Final Fantasy and Zelda.
 
-The game was made using C++ and Allegro library.
+The game was made using C++ and Allegro 4 library.
 
 ## How to play
 
