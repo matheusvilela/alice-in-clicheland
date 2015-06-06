@@ -19,6 +19,7 @@ body {
   padding: 10px;
   width: 880px;
   margin: 0 auto;
+  position: relative;
 }
 #header #language-menu a {
   width: 16px;
@@ -59,8 +60,6 @@ body {
   padding: 10px;
 }
 #content {
-  float: left;
-  width: 728px;
   padding: 10px;
 }
 #content h1 {
@@ -76,16 +75,6 @@ body {
   background: url(images/end-bg.gif) center no-repeat;
   margin-top: -7px;
 }
-#downloads span {
-  color: #fff;
-  display: block;
-  font-weight: 600;
-  margin-bottom: 20px;
-  background-color: #00b4e1;
-  border: 1px #fff solid;
-  padding: 3px 5px;
-  text-align: center;
-}
 #downloads a {
     color: #0065ee;
     margin: 5px 0;
@@ -96,4 +85,18 @@ body {
 }
 #youtube embed {
     margin: 40px 0px;
+}
+#images img {
+    margin: 0 auto;
+    display: block;
+}
+#github {
+    background-color: #aed3e1;
+    border: 1px white solid;
+    position: absolute;
+    padding: 10px;
+    top: 30px;
+    right: 15px;
+    text-decoration: none;
+    color: black;
 }
