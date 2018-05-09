@@ -1,82 +1,118 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8"/>
+        <meta content="initial-scale=1, shrink-to-fit=no, width=device-width" name="viewport"/>
 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'/>
-        <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="octicons/octicons.css"/>
-        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+        <!-- CSS -->
+        <!-- Add Material font (Roboto) and Material icon as needed -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono:300,400,700|Roboto+Slab:300,400,700" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+
+        <!-- Add Material CSS, replace Bootstrap CSS -->
+        <link href="material.min.css" rel="stylesheet"/>
+        <link href="style.css" rel="stylesheet"/>
+
         <title>Alice in Clicheland</title>
-
     </head>
-
     <body>
 
         <div id="wrapper">
-            <div id="header">
-                <div id=language-menu>
-                    <a id="portuguese" href="jogo.html"></a>
-                    <a id="english" href="index.html"></a>
+            <div id="header" class="jumbotron bg-info">
+                <div class="container">
+                    <div id=language-menu class="d-flex justify-content-end">
+                        <a id="portuguese" href="jogo.html"></a>
+                        <a id="english" href="index.html"></a>
+                    </div>
+                    <h1 class="text-light text-center">Alice in Clicheland</h1>
+                    <div class="d-flex justify-content-center">
+                        <a id="github" href="https://github.com/matheusvilela/alice-in-clicheland" class="btn btn-raised btn-light mt-3">
+                            <i class="material-icons mr-2 align-middle">code</i>Fork me on Github
+                        </a>
+                    </div>
                 </div>
-                <div class="title">Alice in Clicheland</div>
-                <a id="github" href="https://github.com/matheusvilela/alice-in-clicheland">
-                    View on github
-                    <span class="octicon octicon-mark-github"></span>
-                </a>
-
             </div>
             <div class="shadow"></div>
             <div id="body">
-                <div id="content">
-                    <h1> Summary </h1>
-                    <p>
-                        Alice in Clicheland is a game developed for "Digital Games Development" course at UFMG.
-                        It is an action RPG game, where the action takes place in real time. With its 2d graphics
-                        and aerial view, Alice in Clicheland recalls SNES RPG games, like Final Fantasy and Zelda.
+                <div class="container">
+                    <div class="card mt-3 mb-3">
+                        <div class="card-body">
+                            <h2 class="text-info"> Summary </h2>
+                            <p>
+                                Alice in Clicheland is a game developed for "Digital Games Development" course at UFMG.
+                                It is an action RPG game, where the action takes place in real time. With its 2d graphics
+                                and aerial view, Alice in Clicheland recalls SNES RPG games, like Final Fantasy and Zelda.
 
-                    </p>
-                    <p>
-                        Alice in Clicheland is a game set on a fantasy world, where two dimensions coexist.
-                        Those dimensions were separated by a great hero during Primordial War. For some reason, though, the seal that
-                        used to keep the dimensions apart was broken, chaining a new war, as Dark Clicheland's beings tried to invade
-                        the human world: Clicheland.
-                    </p>
-                    <p>
-                        Alice is a young girl that joined the human army with her brother, Bob, seeking fame and money, that were promised
-                        by the governors during the crisis. After two long years of battle, her brother was brutally killed by the
-                        enemy forces, on Berun Battle. Her army went through many losses, being forced to flee from the battlefield.
-                        Suffering the loss of her brother, Alice gave up the soldier's carrier and went back to her quiet life as a seller... 
-                    </p>
-
-                    <h1> Screenshots </h1>
-                    <div id="images">
-                        <img src="images/screen.png" alt="alice" border = 0 width = 720 height = 582></img>
+                            </p>
+                            <p>
+                                Alice in Clicheland is a game set on a fantasy world, where two dimensions coexist.
+                                Those dimensions were separated by a great hero during Primordial War. For some reason, though, the seal that
+                                used to keep the dimensions apart was broken, chaining a new war, as Dark Clicheland's beings tried to invade
+                                the human world: Clicheland.
+                            </p>
+                            <p>
+                                Alice is a young girl that joined the human army with her brother, Bob, seeking fame and money, that were promised
+                                by the governors during the crisis. After two long years of battle, her brother was brutally killed by the
+                                enemy forces, on Berun Battle. Her army went through many losses, being forced to flee from the battlefield.
+                                Suffering the loss of her brother, Alice gave up the soldier's carrier and went back to her quiet life as a seller... 
+                            </p>
+                        </div>
                     </div>
-                    <h1> Video </h1>
-                    <div id="youtube">
-                        <object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/u5m22mWlJT0?fs=1&amp;hl=pt_BR&amp;rel=0"/><param name="allowFullScreen" value="true"/><param name="allowscriptaccess" value="always"/><embed src="http://www.youtube.com/v/u5m22mWlJT0?fs=1&amp;hl=pt_BR&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
-                    </div>
-                    <h1> How to compile </h1>
-                    <p>
-                        The game was developed using the <a href="http://www.allegro.cc/">Allegro</a> library. You must have it installed
-                        in order to compile the code.
-                        The compressed source code ships with a Makefile. You can use it to compile the game, running "make" from the terminal.
-                    </p>
 
-                    <h1> Developers </h1>
-                    <ul>
-                        <li> Matheus Silva Vilela (<a href="mailto:matheusv@dcc.ufmg.br">matheusv@dcc.ufmg.br</a>)</li>
-                        <li> Thiago Silva Vilela (<a href="mailto:thiagov@dcc.ufmg.br">thiagov@dcc.ufmg.br</a>)</li>
-                        <li> Vinicius Graciano Santos (<a href="mailto:vgs@dcc.ufmg.br">vgs@dcc.ufmg.br</a>)</li>
-                    </ul>
-   
+                    <div class="card mt-3 mb-3">
+                        <div class="card-body">
+                            <h2 class="text-info"> Screenshots </h2>
+                            <div id="images">
+                                <img src="images/screen.png" alt="alice" class="img-fluid rounded mx-auto d-block"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-3 mb-3">
+                        <div class="card-body">
+                            <h2 class="text-info"> Video </h2>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/u5m22mWlJT0?rel=0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-3 mb-3">
+                        <div class="card-body">
+                            <h2 class="text-info"> How to compile </h2>
+                            <p>
+                                The game was developed using the <a class="text-info" href="http://www.allegro.cc/">Allegro</a> library. You must have it installed
+                                in order to compile the code.
+                                The compressed source code ships with a Makefile. You can use it to compile the game, running "make" from the terminal.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="card mt-3 mb-3">
+                        <div class="card-body">
+                            <h2 class="text-info"> Developers </h2>
+                            <ul>
+                                <li> Matheus Silva Vilela (<a class="text-info" href="mailto:matheusv@dcc.ufmg.br">matheusv@dcc.ufmg.br</a>)</li>
+                                <li> Thiago Silva Vilela (<a class="text-info" href="mailto:thiagov@dcc.ufmg.br">thiagov@dcc.ufmg.br</a>)</li>
+                                <li> Vinicius Graciano Santos (<a class="text-info" href="mailto:vgs@dcc.ufmg.br">vgs@dcc.ufmg.br</a>)</li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
             <div class="clear"></div>
-         </div>
-         <div id="end"></div>
+        </div>
+        <div id="end"></div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+        <!-- Then Material JavaScript on top of Bootstrap JavaScript -->
+        <script src="material.min.js"></script>
 
     </body>
 </html>

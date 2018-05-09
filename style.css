@@ -1,102 +1,21 @@
-body {
-  margin: 0;
-  background-color: #F4F5F4;
-}
-.clear {
-    clear: both;
-}
-#wrapper {
-  width: 922px;
-  margin: 0 auto;
-  font-family: 'Open Sans';
-  font-size: 13px;
-  background: url(images/wrapper-bg.gif) repeat-y;
-}
-#header {
-  background-color: #00b4e1;
-  color: #fff;
-  height: 80px;
-  padding: 10px;
-  width: 880px;
-  margin: 0 auto;
-  position: relative;
-}
-#header #language-menu a {
+#language-menu a {
   width: 16px;
   height: 11px;
   display: inline-block;
   margin: 0px 3px;
 }
-#header #language-menu a#portuguese {
+#language-menu a#portuguese {
   background: url(images/portugues.jpg) center no-repeat;
 }
-#header #language-menu a#english {
+#language-menu a#english {
   background: url(images/english.png) center no-repeat;
 }
-#header .title {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 600;
+
+body {
+    background: url(images/art.jpg);
+    background-repeat: no-repeat;
+    background-position: center 25%;
 }
-.shadow {
-    height: 4px;
-    background: url(images/bottom-shadow.png) repeat-x;
-    width: 900px;
-    margin: 0 auto;
-    margin-bottom: -4px;
-    z-index: 2;
-}
-#body {
-  margin: 0 auto;
-  width: 900px;
-  padding: 0;
-}
-#right-menu {
-  float: right;
-  text-align: center;
-  background-color: #aed3e1;
-  border: 1px #00b4e1 solid;
-  width: 130px;
-  padding: 10px;
-}
-#content {
-  padding: 10px;
-}
-#content h1 {
-  font-size: 15px;
-  color: #00b4e1;
-  margin: 15px 0;
-  display: block;
-}
-#end {
-  margin: 0 auto;
-  width: 922px;
-  height: 17px;
-  background: url(images/end-bg.gif) center no-repeat;
-  margin-top: -7px;
-}
-#downloads a {
-    color: #0065ee;
-    margin: 5px 0;
-    display: block;
-}
-#youtube {
-    text-align: center;
-}
-#youtube embed {
-    margin: 40px 0px;
-}
-#images img {
-    margin: 0 auto;
-    display: block;
-}
-#github {
-    background-color: #aed3e1;
-    border: 1px white solid;
-    position: absolute;
-    padding: 10px;
-    top: 30px;
-    right: 15px;
-    text-decoration: none;
-    color: black;
+.card {
+    background-color: rgba(245, 245, 245, 0.9)
 }
