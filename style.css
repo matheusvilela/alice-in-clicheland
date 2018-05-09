@@ -1,21 +1,23 @@
 #language-menu a {
-  width: 16px;
-  height: 11px;
-  display: inline-block;
-  margin: 0px 3px;
+    width: 16px;
+    height: 11px;
+    display: inline-block;
+    margin: 0px 3px;
 }
 #language-menu a#portuguese {
-  background: url(images/portugues.jpg) center no-repeat;
+    background: url(images/portugues.jpg) center no-repeat;
 }
 #language-menu a#english {
-  background: url(images/english.png) center no-repeat;
+    background: url(images/english.png) center no-repeat;
 }
-
 body {
     background: url(images/art.jpg);
     background-repeat: no-repeat;
     background-position: center 30%;
 }
 .card {
-    background-color: rgba(245, 245, 245, 0.9)
+    background-color: rgba(245, 245, 245, 0.9);
+}
+.jumbotron {
+    background-color: rgba(33, 150, 243, 0.97);
 }
